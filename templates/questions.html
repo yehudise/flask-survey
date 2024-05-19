@@ -1,16 +1,19 @@
-{% extends "base.html" %}
-
-{% block title %}
-    Survey Question
-{% endblock %}
-
+{% extends "base.html" %} 
 {% block content %}
-    <h2>{{ question_text }}</h2>
-    <form method="POST" action="{{ url_for('question', question_id=question_id) }}">
-        {% for choice in choices %}
-            <input type="radio" id="{{ choice }}" name="answer" value="{{ choice }}">
-            <label for="{{ choice }}">{{ choice }}</label><br>
-        {% endfor %}
-        <button type="submit">Submit</button>
-    </form>
+<h1>{{ question.question }}</h1>
+<form
+  method="POST"
+  action="/answer"
+>
+  {% for choice in question.choices %}
+  <input
+    type="radio"
+    id="{{ choice }}"
+    name="answer"
+    value="{{ choice }}"
+  />
+  {% endfor %}
+  </select>
+  <button>Continue</button>
+</form>
 {% endblock %}
