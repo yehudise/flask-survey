@@ -63,5 +63,4 @@ def show_question(qid):
 @app.route("/complete")
 def complete():
     """this is the survey complete route - the page that will show when surevy is complete!"""
-
-    return render_template("completion.html")
+    return render_template("complete.html")
