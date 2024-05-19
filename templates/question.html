@@ -6,12 +6,9 @@
   action="/answer"
 >
   {% for choice in question.choices %}
-  <input
-    type="radio"
-    id="{{ choice }}"
-    name="answer"
-    value="{{ choice }}"
-  />
+
+  <p><input type="radio" name="answer" value="{{ choice }}"> {{ choice }}</p>
+
   {% endfor %}
   </select>
   <button>Continue</button>

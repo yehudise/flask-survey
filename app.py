@@ -5,6 +5,7 @@ from surveys import satisfaction_survey as survey
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "never-tell!"
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
+app.config['DEBUG'] = True
 
 responses_key = "responses"
 debug = DebugToolbarExtension(app)
@@ -59,7 +60,7 @@ def show_question(qid):
     question= survey.questions[qid]
     return render_template("question.html", question_num=qid, question=question)
 
-@app.route("/cpmplete")
+@app.route("/complete")
 def complete():
     """this is the survey complete route - the page that will show when surevy is complete!"""
 
