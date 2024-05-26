@@ -15,3 +15,4 @@ Yehudis
 
 Questions I have:
 For some reason some times my debugger is showing up and sometimes not, I cannpyt figure out why that is happening?
+Also, in my vscode a workspace popped up and I am not sure why that is or what it is and how to get rid of it?
