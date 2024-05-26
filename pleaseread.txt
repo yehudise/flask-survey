@@ -1,0 +1,17 @@
+Hi Harold!
+
+So I was working on this when I was on my break, I worked off of what I learnt and tried to
+do the best I could, I was still having a bunch of problems, and since I was on break I was not
+allowed to have mentor meeting or on demand mentors. So I used the solution for help, becuase of that 
+ths solution used session and th first part of the assignment was to do it without session becuase whe
+did not leanr that yet. So I went onto the next section and learnt session and then wrote ut my code with the 
+help of the solution. So therefore that is why you will see that I submitted the same project in both 
+the session section and the Flask Tools. You will also see that I added a lot of comments to show
+my understanding of the material.
+Thank you so much!
+
+Best,
+Yehudis
+
+Questions I have:
+For some reason some times my debugger is showing up and sometimes not, I cannpyt figure out why that is happening?
